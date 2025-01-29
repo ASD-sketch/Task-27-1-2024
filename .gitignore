@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Task-27-1-2024/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/Task-27-1-2024/obj/Debug/Task-27-1-2024.csproj.CoreCompileInputs.cache
+/Task-27-1-2024/obj/Debug/Task-27-1-2024.dll
+/Task-27-1-2024/obj/Debug/Task-27-1-2024.pdb
+/Task-27-1-2024/bin/Task-27-1-2024.dll
+/Task-27-1-2024/bin/Task-27-1-2024.pdb
