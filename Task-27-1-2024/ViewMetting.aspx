@@ -26,7 +26,7 @@
 <body>
     <form id="form1" runat="server">
         <div style="max-width: 800px; margin: 50px auto; font-family: Arial, sans-serif;">
-            <h2>Books List</h2>
+            <h2>metting List</h2>
             <asp:GridView ID="gvBooks" runat="server" AutoGenerateColumns="False" HeaderStyle-BackColor="#f2f2f2">
                 <Columns>
                     <asp:BoundField DataField="MettingId" HeaderText="Metting ID" />

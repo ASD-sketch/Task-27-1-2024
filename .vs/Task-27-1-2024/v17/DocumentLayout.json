@@ -1,12 +1,70 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\TaskWeb\\Task-27-1-2024\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31986E4D-1FD4-4C56-A201-321C9DEE6545}|Task-27-1-2024\\Task-27-1-2024.csproj|C:\\Users\\Orange\\Desktop\\TaskWeb\\Task-27-1-2024\\task-27-1-2024\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31986E4D-1FD4-4C56-A201-321C9DEE6545}|Task-27-1-2024\\Task-27-1-2024.csproj|solutionrelative:task-27-1-2024\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31986E4D-1FD4-4C56-A201-321C9DEE6545}|Task-27-1-2024\\Task-27-1-2024.csproj|c:\\users\\orange\\desktop\\taskweb\\task-27-1-2024\\task-27-1-2024\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31986E4D-1FD4-4C56-A201-321C9DEE6545}|Task-27-1-2024\\Task-27-1-2024.csproj|solutionrelative:task-27-1-2024\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31986E4D-1FD4-4C56-A201-321C9DEE6545}|Task-27-1-2024\\Task-27-1-2024.csproj|C:\\Users\\Orange\\Desktop\\TaskWeb\\Task-27-1-2024\\task-27-1-2024\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{31986E4D-1FD4-4C56-A201-321C9DEE6545}|Task-27-1-2024\\Task-27-1-2024.csproj|solutionrelative:task-27-1-2024\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\TaskWeb\\Task-27-1-2024\\Task-27-1-2024\\login.aspx.cs",
+              "RelativeDocumentMoniker": "Task-27-1-2024\\login.aspx.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\TaskWeb\\Task-27-1-2024\\Task-27-1-2024\\login.aspx.cs",
+              "RelativeToolTip": "Task-27-1-2024\\login.aspx.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:17:20.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "profile.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\TaskWeb\\Task-27-1-2024\\Task-27-1-2024\\profile.aspx.cs",
+              "RelativeDocumentMoniker": "Task-27-1-2024\\profile.aspx.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\TaskWeb\\Task-27-1-2024\\Task-27-1-2024\\profile.aspx.cs",
+              "RelativeToolTip": "Task-27-1-2024\\profile.aspx.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T16:47:52.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "profile.aspx",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\TaskWeb\\Task-27-1-2024\\Task-27-1-2024\\profile.aspx",
+              "RelativeDocumentMoniker": "Task-27-1-2024\\profile.aspx",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\TaskWeb\\Task-27-1-2024\\Task-27-1-2024\\profile.aspx",
+              "RelativeToolTip": "Task-27-1-2024\\profile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-29T16:43:08.97Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

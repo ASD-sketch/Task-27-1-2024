@@ -26,7 +26,8 @@ namespace Task_27_1_2024
             string level = txtLevel.Text;
 
             String dataBook = $"{id}, {name}, {kind}, {level}";
-            string path = @"C:\Users\Orange\Desktop\txt\book.txt";
+            String path = Server.MapPath("book.txt");
+            //aa
             using (StreamWriter writer = new StreamWriter(path, true))
             {
                 writer.WriteLine($"{dataBook}\n");

@@ -16,12 +16,17 @@ namespace Task_27_1_2024
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("ViewBooks.aspx");
+            Response.Redirect("BooksSerach.aspx");
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
             Response.Redirect("ViewMetting.aspx");
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("profile.aspx");
         }
     }
 }

@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Xml.Linq;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Task_27_1_2024
 {
@@ -18,8 +21,10 @@ namespace Task_27_1_2024
 
         protected bool IsUserValid(string email, string password)
         {
-            string path = @"C:\Users\Orange\Desktop\TaskWeb\txt\a.txt";
-           
+            
+            String path = Server.MapPath("a.txt");
+
+
             if (File.Exists(path))
             {
                 var lines = File.ReadAllLines(path);
@@ -45,8 +50,10 @@ namespace Task_27_1_2024
 
             else if (IsUserValid(email, password))
             {
+                Session["UserEmail"] = email;
                 Response.Write("Login successful!");
-                Response.Redirect("homeUser.aspx");
+                Response.Redirect("homeUser.aspx"); 
+
             }
             else
             {

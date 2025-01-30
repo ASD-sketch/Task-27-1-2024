@@ -13,7 +13,7 @@ namespace Task_27_1_2024
         private string filePath;
         protected void Page_Load(object sender, EventArgs e)
         {
-            filePath = @"C:\Users\Orange\Desktop\TaskWeb\txt\book.txt";
+            filePath = @"C:\Users\Orange\Desktop\txt\book.txt";
             
 
             if (!IsPostBack)
@@ -28,7 +28,7 @@ namespace Task_27_1_2024
             {
                 string[] lines = File.ReadAllLines(filePath);
                 ddlBooks.Items.Clear();
-                ddlBooks.Items.Add(new ListItem("Select a Book", ""));
+                ddlBooks.Items.Add(new ListItem("Select a Book"));
 
                 foreach (string line in lines)
                 {

@@ -67,14 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="a.txt" />
     <Content Include="AddBook.aspx" />
     <Content Include="AddMetting.aspx" />
+    <Content Include="book.txt" />
+    <Content Include="BooksSerach.aspx" />
     <Content Include="EditBook.aspx" />
     <Content Include="homeAdmin.aspx" />
     <Content Include="homeUser.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="metting.txt" />
+    <Content Include="profile.aspx" />
+    <Content Include="profile.txt" />
     <Content Include="Register.aspx" />
-    <Content Include="ViewBooks.aspx" />
     <Content Include="ViewMetting.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -92,6 +97,13 @@
     </Compile>
     <Compile Include="AddMetting.aspx.designer.cs">
       <DependentUpon>AddMetting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSerach.aspx.cs">
+      <DependentUpon>BooksSerach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BooksSerach.aspx.designer.cs">
+      <DependentUpon>BooksSerach.aspx</DependentUpon>
     </Compile>
     <Compile Include="EditBook.aspx.cs">
       <DependentUpon>EditBook.aspx</DependentUpon>
@@ -121,6 +133,13 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="profile.aspx.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="profile.aspx.designer.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
@@ -128,13 +147,6 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ViewBooks.aspx.cs">
-      <DependentUpon>ViewBooks.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ViewBooks.aspx.designer.cs">
-      <DependentUpon>ViewBooks.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewMetting.aspx.cs">
       <DependentUpon>ViewMetting.aspx</DependentUpon>

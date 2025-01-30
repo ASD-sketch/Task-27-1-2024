@@ -15,6 +15,7 @@
         </div>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="View Book" />
          <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="View metting" />
+         <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="profile" />
     </form>
 </body>
 </html>
